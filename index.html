@@ -1,19 +1,20 @@
 <!doctype html>
-<html lang="pt-br">
+<html lang="pt-br" ng-app="App"> 
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="dist/css/bootstrap.css">
     <script src="dist/js/lib.js"></script>
+    <script src="dist/js/App.min"></script>
 
     <!-- Bootstrap CSS -->
 
     <title>Curso gulp</title>
   </head>
-  <body>
+  <body ng-controller="IndexController">
     <nav class="navbar  navbar-inverse fixed-top bg-dark">
-        <h1>Gulp</h1>
+        <h1>{{ titulo }}</h1>
     </nav>
 
         <main role="main">
