@@ -1,3 +1,3 @@
 .controller('IndexController',function($scope) {
-    $scope.titulo = "Curso gulp";
+    $scope.titulo = "Trabalhando com gulp";
 })
